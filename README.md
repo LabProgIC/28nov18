@@ -32,3 +32,8 @@ Apresentar um menu com 3 opções:
 3. sair
 
 As férias são 1,5 vezes o salário. O 13º é o valor do salário vezes a fração de meses trabalhados no ano
+
+## Compile com mais avisos
+```c
+gcc -Wall -Wextra -g index.c -o out.exe
+```
