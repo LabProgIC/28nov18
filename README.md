@@ -35,5 +35,5 @@ As férias são 1,5 vezes o salário. O 13º é o valor do salário vezes a fra�
 
 ## Compile com mais avisos
 ```c
-gcc -Wall -Wextra -g index.c -o out.exe
+gcc -Wall -Wextra -g3 index.c -o out.exe
 ```
