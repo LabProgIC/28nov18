@@ -1,0 +1,2 @@
+
+int tabelaPreco(int codigo);
