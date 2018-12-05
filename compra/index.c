@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include "compraComDesconto.h"
-//#include "consultaCodigo.h"
-//#include "consultaDesconto.h"
+#include "tabelaPreco.h"
+#include "tabelaDesconto.h"
 
 int main () {
-  int preco = 20;
-  int quantidade = 3000;
-  double desconto = 0.1;
+  // ler estes valores da entrada padrão
+  int codigo = 15;
+  int quantidade = 20;
+  
+  int preco = quantidade * tabelaPreco(codigo);
+  double desconto = tabelaDesconto(preco);
+  double valor = (double)preco * desconto;
 
-  double valorFinal = compraComDesconto(preco, quantidade, desconto); 
-
-  printf("O valor final é %f\n", valorFinal);
+  //printe na tela o valor
 
   return 0;
 }
