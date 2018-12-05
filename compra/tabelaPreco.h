@@ -1,2 +1,1 @@
-
-int tabelaPreco(int codigo);
+int tabelaPreco(int);
